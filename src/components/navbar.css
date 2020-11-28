@@ -1,0 +1,12 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(88, 102, 88);
+    display: flex;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.caption{
+    margin-left: 20px;
+    color: #fff;
+}

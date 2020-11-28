@@ -1,0 +1,106 @@
+.table-grid{
+    width: 40%;
+}
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+}
+.Table{
+    display: grid;
+    grid-template-columns:10% 15% 35% 8% 8% 8% 8% 8%;
+    text-align: center;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-top: black solid 1px;
+}
+
+.Table img{
+  width: 50px;  
+  padding: 3px;
+}
+
+.team_0{
+    background-color: rgb(0, 255, 0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+
+.team_1{
+    background-color:  rgb(0, 255, 0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+
+.team_2{
+    background-color:  rgb(0, 255, 0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+
+.team_17{
+    background-color: rgb(255,0 ,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+.team_18{
+    background-color: rgb(255,0 ,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+.team_19{
+    background-color:  rgb(255,0 ,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    margin: 0;
+}
+
+hr{
+    border: rgb(12, 12, 12) solid 0.1px;
+    width: 100%;
+}
+.Table p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:770px){
+    .table-grid{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+}
+@media (max-width:670px){
+    .table-grid{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    
+}
+@media (max-width:570px){
+    .table-grid{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
